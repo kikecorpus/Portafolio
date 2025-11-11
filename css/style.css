@@ -71,3 +71,77 @@ header a:hover {
     width: 15em;
     gap: 1em;
 }
+
+#skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: var(--color-secundario);
+    color: var(--font-color);
+}
+
+#skill .container{
+    display: flex;
+    flex-direction: column;
+    gap: 2em
+}
+
+#aprendiendo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: var(--color-principal);
+    color: var(--font-color);
+}
+
+#aprendiendo .container{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    text-align: center;
+}
+
+#proyecto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+#proyecto .container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+}
+
+#proyecto .container img{
+   width: 200px;
+}
+
+.cuadro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  width: 230pX;
+  height: 230px;
+  gap: 0.3em
+}
+
+#contacto {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background-color: gainsboro;
+}
+
